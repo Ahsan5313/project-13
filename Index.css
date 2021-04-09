@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+}
+/*main_manu start from here*/
+
+.main_manu{
+    width: 50%;
+    float: right;
+   
+}
+.main_manu ul{
+ 
+    background: cadetblue;
+    list-style-type: none;
+    
+}
+
+.main_manu ul li{
+   display: inline-block;
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+}
+.main_manu ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 1px solid silver;
+   
+    
+}
+.main_manu ul li:hover{
+    background: rgb(8, 68, 70);
+    border-radius: 7px;
+
+  
+}
+.main_manu ul li a:hover{
+    border-left: none;
+}
+.icon_site{
+    width: 50%;
+    float: left;
+    background:rgb(117, 88, 35);
+}
+.icon_site a{
+    text-decoration: none;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    line-height: 60px;
+    border-right: 1px silver solid;
+    color:white;
+    opacity: .6;
+  
+}
+.icon_site a:hover{
+    background: rgb(197, 174, 131);
+    border-radius: 7px;
+    opacity: 1;
+    border-right: none;
+}
+.icon_site :nth-child(2){
+    border-right: none;
+} 
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*main_manu end here*/
+
+
+/*main start from here*/
+
+main{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+  
+}
+.picture_img{
+   position: relative;
+    width: 100%;
+}
+.sun{
+     
+  margin-left: 80%;
+  transition: 1s;
+  position: absolute;
+  top:40px;
+  left: 0;
+  
+}
+.sun:hover{
+    transform:rotate(180deg);
+}
+
+.sun2{
+    position: absolute;
+    top:700px;
+    left: 20px;
+    transition: 1s;
+}
+.sun2:hover{
+    transform: rotate(180deg);
+}
+
+
+.picture_img h1{
+    position: absolute;
+    top:350px;
+    left: 40%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.picture_img h2{
+    position: absolute;
+    top:390px;
+    left: 38%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.picture_img P{
+
+    position: absolute;
+    top:450px;
+    left: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 27px;
+    padding: 20px;
+}  
+main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*main end here*/
+
+/*footer start here*/
+.foot{
+    width: 100%;
+    position: relative;
+    top: 1002px;
+    left: 0;
+    background-color: black;
+    height: 250px;
+}
+.foot P{
+    color: white;
+    text-align: center;
+}
+.social_media{
+  
+    width: 20px;
+    position: absolute;
+    top:1120px;
+    left: 20px;
+}
+.social_media i{
+    font-size: 40px;
+    background-color: silver;
+    border-radius: 7px;
+  
+}
+.social_media button{
+    background-color: white;
+    border-radius: 7px;
+    margin: 5px;
+    border: none;
+}
+.social_media a{
+    color:#1C7ED6;
+}
+.social_media::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*para start from here*/
+
+.paragarah p{
+    position: absolute;
+    top:1170px;
+    color: white;
+    left: 44%;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+.paragarah hr{
+    position: absolute;
+    top:1215px;
+    color:silver;
+    left: 42%;
+    width: 200px;
+}
+.paragarah h1{
+    position: absolute;
+    top:1100px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 45%;
+}
+
+.paragarah b{
+    position: absolute;
+    color:white;
+    top:1240px;
+    left: 42%;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.last_img img{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    top:1000px;
+    left: 85%;
+   
+}
+
+/*para end here*/
+
+/*footer end here*/
